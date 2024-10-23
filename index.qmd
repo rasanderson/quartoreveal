@@ -1,9 +1,14 @@
 ---
 title: "Test quarto"
 author: "Roy Sanderson"
-format: revealjs
-revealjs-plugins:
-  - drop
+format:
+  revealjs:
+    drop:
+      engine: webr
+      webr:
+        packages:
+          - ggplot2
+          - dplyr
 ---
 
 ## Quarto
